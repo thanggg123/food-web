@@ -1,0 +1,44 @@
+:root {
+    --white-color: #fff;
+    --Black-color: #000;
+    --text-color: #58595d;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-family: serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border-top: 1px solid #eee ;
+    margin: 20px 0;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-2 {
+    width: 50%;
+}

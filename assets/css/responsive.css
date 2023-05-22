@@ -1,0 +1,38 @@
+/* pc */
+@media (min-width: 1024px) {
+    .about-section .content-body .essay-large {
+        display: initial;
+    }
+}
+/* Table */
+@media (min-width: 740px) and (max-width: 1023px){
+    .content-container {
+        padding: 64px 0;
+    }
+
+    .full-width-tablet {
+        width: 100%;
+    }
+}
+/* mobile */
+@media (max-width: 739px) {
+    #nav {
+        display: none;
+    }
+
+    .full-width-moblie {
+        width: 100%;
+    }
+
+    .content-container {
+        padding: 64px 0;
+    }
+
+    .about-section .content-img {
+        display: none;
+    }
+
+    .about-section .content-body .essay-large {
+        display: initial;
+    }
+}
